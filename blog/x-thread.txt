@@ -1,0 +1,57 @@
+Tweet 1/5
+───
+Day 3/100 of building open-source DevOps tools:
+
+Direct root SSH login is banned by CIS Benchmarks for good reason — it's the #1 brute-force target.
+
+But manually hardening SSH across a fleet? Error-prone. Auditors want evidence. You need automation.
+
+I built ssh-shield to fix this.
+
+🧵
+
+Tweet 2/5
+───
+ssh-shield is a single Bash CLI for SSH hardening:
+
+→ audit — Check current status with security scoring
+→ harden — Apply CIS-compliant settings (with auto-backup)
+→ report — Generate HTML compliance reports
+
+Zero dependencies. Automatic rollback on failure.
+
+Tweet 3/5
+───
+Safety-first design:
+
+• Automatic config backup before any changes
+• SSH config validation before restart
+• Automatic rollback if validation fails
+• Interactive confirmation for password auth disable
+
+Because breaking SSH access to production is a resume-generating event.
+
+Tweet 4/5
+───
+Interactive web demo:
+https://ssh-shield.vercel.app
+
+Try audit, harden, and report commands in your browser. No installation required.
+
+Source code (MIT):
+https://github.com/SaharshPamecha/ssh-shield
+
+Install with one line:
+curl -sL https://raw.githubusercontent.com/SaharshPamecha/ssh-shield/main/install.sh | sudo bash
+
+Tweet 5/5
+───
+Built this as part of my 100-day open-source DevOps journey.
+
+Day 1: userctl (service account auditor)
+Day 2: expiry-guard (temp user lifecycle)
+Day 3: ssh-shield (SSH hardening)
+
+More tools coming. Follow @SaharshPamecha1 for the journey.
+
+#DevOps #Linux #Security #SSH #CIS #100DaysOfDevOps

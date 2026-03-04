@@ -1,0 +1,22 @@
+Day 3/100: SSH Hardening with ssh-shield ✅
+
+Completed KodeKloud's Day 3 task — disabled direct root SSH login on all app servers. Critical CIS Benchmark requirement.
+
+But manual edits across a fleet? That's config drift waiting to happen. So I built ssh-shield:
+
+→ audit — Check hardening status with security scoring
+→ harden — Apply CIS settings (auto-backup, validation, rollback)
+→ report — Generate HTML compliance evidence
+
+Zero dependencies. Production-safe by design.
+
+The tool validates SSH config before restarting, creates automatic backups, and rolls back on failure — because breaking SSH access to production is a resume-generating event.
+
+Real problem solved: Fleet-wide SSH compliance without the fear of locking yourself out.
+
+Interactive demo: https://ssh-shield.vercel.app
+Source code: https://github.com/SaharshPamecha/ssh-shield
+
+This is part of my 100-day open-source DevOps journey. Follow along for daily tools.
+
+#DevOps #Linux #Security #SSH #CIS #Compliance #OpenSource #100DaysOfDevOps
