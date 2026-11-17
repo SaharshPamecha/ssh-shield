@@ -177,4 +177,4 @@ If SSH hardening is a pain point you recognize, try the tool. File issues. This 
 
 **About the Author**
 
-Saharsh Pamecha is a Staff Engineer exploring the intersection of infrastructure automation and security. This post is part of a 100-day open-source DevOps journey. Follow on [X @SaharshPamecha1](https://x.com/SaharshPamecha1) and [LinkedIn](https://www.linkedin.com/in/saharsh-pamecha-6219961b7/) for daily updates.
+Saharsh Pamecha is a Staff Engineer exploring the intersection of DevOps, Data, AI and Infrastructure Automation and Security. This post is part of a 100-day open-source DevOps journey. Follow on [X @SaharshPamecha1](https://x.com/SaharshPamecha1) and [LinkedIn](https://www.linkedin.com/in/saharsh-pamecha-6219961b7/) for daily updates.
