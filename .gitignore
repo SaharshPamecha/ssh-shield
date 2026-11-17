@@ -51,3 +51,7 @@ DerivedData/
 *.p8
 *.keystore
 *.jks
+
+# large artifacts
+*.tar.gz
+*.zip
